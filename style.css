@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(36, 157, 187);
+}
+.img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.contato{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.contato dt, .contato dd {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+.contato dt {
+	font-weight: bold;
+}
+.contato dt:after {
+	content: ":";
+}
+.contato dd:after {
+	content: " // ";
+	color: rgb(99, 96, 96);
+}
+.contato dd:last-child:after {
+	content: "";
+}
+a, a:link, a:visited, a:hover {
+	color: rgb(31, 55, 194);
+	text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}
