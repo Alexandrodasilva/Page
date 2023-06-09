@@ -1,0 +1,8 @@
+*{
+    color: black;
+}
+.navbar{
+    justify-content: center; 
+    align-items: center; 
+    border-bottom: 1px solid brown;
+}
