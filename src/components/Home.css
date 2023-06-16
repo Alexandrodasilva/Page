@@ -1,6 +1,24 @@
-body{
-    background-image: url('../../public/cidade.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
- }
+.home{
+ background-image: url('../../public/alexandro.jpg');
+ background-color: rgb(0, 0, 0, 0.5);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 1000px;
+ padding-top: 45px;
+
+}
+.home-div{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.home-div2{
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+.home-div-h2{
+    font-size: 20px; 
+}
