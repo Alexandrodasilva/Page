@@ -1,16 +1,49 @@
 .navbar{
     background-color: rgb(0, 0, 0, 0.5);
-    height: 45px;
+    height: 80px;
     width: 100%;
     position: fixed;
     text-align: center;
 }
-.navbar-div{
-    text-decoration: none;
-}
-ul{
+
+.navbar-div {
     display: flex;
-}
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px; /* Adicione o espaçamento desejado */
+    color: aliceblue;
+  }
+  
+  .ul-container {
+    display: flex; /* Torna os ul-1 e ul-3 flexíveis */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ul-1{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 10px; /* Adicione o espaçamento desejado entre eles */
+    padding-left: 70px;
+  }
+
+  .ul-3 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 10px; /* Adicione o espaçamento desejado entre eles */
+    padding-right: 90px;
+  }
+  
+  .ul-2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
 li{
-    padding: 10px;
+   padding: 20px;
 }
