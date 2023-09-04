@@ -1,8 +1,8 @@
 import './App.css';
-import Home from './components/Home';
-import About from './components/About';
-import Navbar from './components/Navbar';
-import Contact from './components/Contact';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Navbar from './components/navbar/Navbar';
+import Contact from './components/contact/Contact';
 function App() {
   return (
     <div>
